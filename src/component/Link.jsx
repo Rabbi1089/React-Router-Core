@@ -1,4 +1,5 @@
-import React from 'react';
+import PropTypes from 'prop-types'; // ES6
+
 
 const Link = ({ route }) => {
     const { path, name } = route
@@ -7,4 +8,7 @@ const Link = ({ route }) => {
     );
 };
 
+Link.propTypes = {
+    route : PropTypes.object,
+}
 export default Link;
