@@ -37,9 +37,9 @@ const NavBar = () => {
                 `
                 absolute  md:flex mr-3 gap-4duration-2000 md:static p-4 mt-4
                 ${
-                    open === true ? 'top-15' : '-top-60'
+                    open === true ? 'top-15' : '-top-80'
                 }
-                shadow-lg mx-4  bg-red-600 px-5
+                shadow-lg mx-4  bg-blue-400 px-5
                 `
             }
             >
